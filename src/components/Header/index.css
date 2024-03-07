@@ -1,0 +1,74 @@
+/* Write your CSS code here */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wave {
+  width: 35px;
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 34px;
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-header {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Roboto';
+}
+
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.blog-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.sub-title {
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: 'Roboto';
+    font-size: 34px;
+  }
+}
